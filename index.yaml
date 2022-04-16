@@ -1,0 +1,18 @@
+apiVersion: v1
+entries:
+  guestbook:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2022-04-16T10:58:06.460813+01:00"
+    dependencies:
+    - name: redis
+      repository: file://subcharts/redis
+      version: 16.8.5
+    description: A Helm chart for Kubernetes
+    digest: 464859937b9367263318593e999bcaf2e353261b3a994ac3c03c88c8a85d4e59
+    name: guestbook
+    type: application
+    urls:
+    - guestbook-0.1.0.tgz
+    version: 0.1.0
+generated: "2022-04-16T10:58:06.451397+01:00"
